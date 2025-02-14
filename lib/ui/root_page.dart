@@ -21,7 +21,7 @@ class _RootPageState extends State<RootPage> {
   int _notificationCount = 3; // Số lượng thông báo mới (có thể thay đổi theo trạng thái thực tế)
 
   List<Widget> pages = [
-    const HomePage(),
+    HomePage(),
     const ElectricUsagePage(),
     const ScanQrPage(),
      ChatPage(),
